@@ -48,3 +48,24 @@ htmlcov/
 # Misc
 *.log
 
+
+# ML model weights and checkpoints
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.ckpt
+*.onnx
+*.safetensors
+
+# Training run outputs
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# Datasets (download via provided script)
+data/
+datasets/
+*.csv.gz
+*.npz
