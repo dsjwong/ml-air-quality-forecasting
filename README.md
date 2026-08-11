@@ -26,11 +26,6 @@ PYTHONPATH=. python3 scripts/run_regression_engineered.py
 PYTHONPATH=. python3 scripts/run_classification.py
 ```
 
-### Run Tests
-```bash
-PYTHONPATH=. python3 -m pytest tests/ -v
-```
-
 ### Open Notebooks
 ```bash
 jupyter notebook
